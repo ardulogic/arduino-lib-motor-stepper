@@ -1,15 +1,3 @@
-# MotorStepper
-
-## An Arduino library for controlling Stepper Motors
-
-Uses highly optimised code and Arduino Timer1 as PWM source.
-
-### v1.1
-
-Implemented waypoints, fast ocr (approx) calculation, debug code
-
-```c++
-
 // Hardware Motors
 #include <MotorStepper.h>
 
@@ -28,4 +16,3 @@ void setup() {
 void loop(void) {
     
 }
-```
